@@ -14,5 +14,6 @@ public class CalculateSimpleInterest {
 		float r = input.nextFloat();
 		float si = (p * r * t) / 100;
 		System.out.println("Simple Interest -> Rs. " + si);
+		input.close();
 	}
 }
