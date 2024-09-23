@@ -9,19 +9,19 @@ public class OperateOnTwoNumbers {
 		System.out.print("Enter 2 numbers : ");
 		float num1 = input.nextFloat();
 		float num2 = input.nextFloat();
-		System.out.println("Enter any operator (+,-,*,/");
+		System.out.print("Enter any operator (+,-,*,/) : ");
 		float result = 0;
 		String operator = input.next();
-		if(operator == "+") {
+		if(operator.equals("+")) {
 			result = num1 + num2;
 		}
-		else if(operator == "-") {
+		else if(operator.equals("-")) {
 			result = num1 - num2;
 		}
-		else if(operator == "*") {
+		else if(operator.equals("*")) {
 			result = num1 * num2;
 		}
-		else if(operator == "/") {
+		else if(operator.equals("/")) {
 			result = num1 / num2;
 		}
 		else {
